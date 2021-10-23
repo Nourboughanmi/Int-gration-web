@@ -1,1 +1,27 @@
-
+<!DOCTYPE html>
+    <head>
+        <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    </head>
+    <body>
+        <div id="root">
+         
+        </div>
+      <script type=text/label">
+         class BienvenueState extends React.Component {
+            constructor (props){
+                  super (props);
+                              let prenom=this.props.saisie;
+                              prenom.toString().split(" ")[0];
+                         this.state ={saisie:prenom}
+            }
+                            render(){
+                 return <h1> Bonjour {this.state.saisie}</h1>;
+            }
+          }
+   const element =<BienvenueState saisie ="foulen"/>;
+      ReactDOM.render(element,document.getElementById("root"));
+      </script>
+</body>
+</html>
