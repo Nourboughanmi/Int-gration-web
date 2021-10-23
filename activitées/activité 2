@@ -6,7 +6,16 @@
 <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 </head>
 <body>
+<script type ="text/babel">
+const apprenant={
+nomApprenant:'foulen', prenomApprenant:'ben foulen '}
+function accueilEtudiant (apprenant){
 
-
+return apprenant.nomApprenant+' '+apprenant.prenomApprenant
+}
+const elt=(<strong> bonne découverte de react{accueilEtudiant(apprenant)} </strong>)
+ReactDOM.render(elt,document.getElementById("root" ))
+</script>
+<div id="root"></div>
 <body>
 </html>
