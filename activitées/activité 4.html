@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <head>
 <title> activité 4</title>
- <script src="react.development.js" crossorigin"></script>
-    <script src="react-dom.development.js" crossorigin"></script>
-    <script src="babel.js"></script>
+<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 </head>
 <body>
  div id="root"></div>
@@ -16,7 +16,5 @@ return<h2> T'es le Bienvenu {this.props.prenom}</h2>;
 const elt=<Bienvenu prenom="Foulen"/>;
 ReactDOM.render(elt,document.getElementById("root"));
 </script>
-</script>
-
 </body>
 </html>
