@@ -1,1 +1,22 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+<TILTLE> activite 1 <TITLE>
+<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin"></script>
 
+
+   <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin"></script>
+
+
+   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+   
+   </HEAD>
+   <BODY>
+   <div id="root"></div>
+   <script type="text/babel">
+   const element=<strong>Bienvenu a tous</strong>
+   ReactDom.render(element,document.getElementById("root")) </script>
+   <div id="root"></div>
+   </BODY>
+   </HTML>
+      
