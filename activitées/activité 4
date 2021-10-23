@@ -1,1 +1,11 @@
+<!DOCTYPE html>
+<head>
+<title> activité 4</title>
+ <script src="react.development.js" crossorigin"></script>
+    <script src="react-dom.development.js" crossorigin"></script>
+    <script src="babel.js"></script>
+</head>
+<body>
 
+</body>
+</html>
